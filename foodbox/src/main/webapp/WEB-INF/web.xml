@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterCtl</servlet-name>
+  	<display-name>RegisterCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.RegisterCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginCtl</servlet-name>
+  	<display-name>LoginCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.LoginCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutCtl</servlet-name>
+  	<display-name>LogoutCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.LogoutCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductOperationCtl</servlet-name>
+  	<display-name>ProductOperationCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.ProductOperationCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContactUserCtl</servlet-name>
+  	<display-name>ContactUserCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.ContactUserCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateAdminPasswordCtl</servlet-name>
+  	<display-name>UpdateAdminPasswordCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.UpdateAdminPasswordCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckoutOrderedCtl</servlet-name>
+  	<display-name>CheckoutOrderedCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.CheckoutOrderedCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteOrdersCtl</servlet-name>
+  	<display-name>DeleteOrdersCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.foodbox.controller.DeleteOrdersCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterCtl</servlet-name>
+  	<url-pattern>/RegisterCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginCtl</servlet-name>
+  	<url-pattern>/LoginCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutCtl</servlet-name>
+  	<url-pattern>/LogoutCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOperationCtl</servlet-name>
+  	<url-pattern>/ProductOperationCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ContactUserCtl</servlet-name>
+  	<url-pattern>/ContactUserCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateAdminPasswordCtl</servlet-name>
+  	<url-pattern>/UpdateAdminPasswordCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckoutOrderedCtl</servlet-name>
+  	<url-pattern>/CheckoutOrderedCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteOrdersCtl</servlet-name>
+  	<url-pattern>/DeleteOrdersCtl</url-pattern>
+  </servlet-mapping>
+</web-app>
